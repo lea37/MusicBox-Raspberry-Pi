@@ -1,6 +1,6 @@
 ### Python script for Capacitive Touch HAT for Raspberry Pi - MPR121
 
-![enter image description here](https://cdn-shop.adafruit.com/product-videos/970x728/2340-01.jpg)
+![Music Box illustration](https://cdn-shop.adafruit.com/970x728/2340-01.jpg)
 
 Because i couldn't found one and that everything was based either on Arduino or other boards. I've came up with this script after doing raspberry GPIO's tutorial ([music box tutorial](https://www.raspberrypi.org/learning/gpio-music-box/worksheet/) helped me a lot), and 
 based on the [old tutorial for the MPR121 Capacitive Sensor x5](https://learn.adafruit.com/mpr121-capacitive-touch-sensor-on-raspberry-pi-and-beaglebone-black/hardware). It is my first python script so feel free to test/change, or tell me how to make it better, even if of course you'll have to deal with your own installation i guess. You will find 2 files. One simple script (simple-music-box.py) that detect if the pin is touched, that's all ,so the sound will have some echos but i kind of like this little sound imperfections. The other one detect the current and the last touch and add a delay before re-playing it if it's still touched. Enjoy !
