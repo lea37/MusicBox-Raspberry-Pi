@@ -1,4 +1,3 @@
-# MusicBox-Raspberry-Pi
 ### Python script for Capacitive Touch HAT for Raspberry Pi - MPR121
 
 Because i couldn't found one and that everything was based either on Arduino or other boards. I've came up with this script after doing raspberry GPIO's tutorial ([music box tutorial](https://www.raspberrypi.org/learning/gpio-music-box/worksheet/) helped me a lot), and 
@@ -32,6 +31,5 @@ sudo python simple-music-touch.py
 
 Then touched any of the cable/fruit/potatoes. Can you here it ?! :D Yeahhh 
 You can easily change the sounds that are in sounds folder. 
-***Additionnal Note ! *** If you play your own sounds and don't hear anything or juste a buzz note even if your audio test works perfectly that means that the sound that you've choose don't have the right configuration. It needs to be in 16Bits and 44100Hrz. Please be sure of that.  
-
+***Additionnal Note !*** If you play your own sounds and don't hear anything or juste a buzz note even if your audio test works perfectly that means that the sound that you've choose don't have the right configuration. It needs to be in 16Bits and 44100Hrz. Please be sure of that.  
 

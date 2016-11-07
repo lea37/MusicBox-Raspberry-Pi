@@ -11,10 +11,18 @@ import Adafruit_MPR121.MPR121 as MPR121
 
 #Sounds array
 sounds = {
-    1: Sound("sounds/sound1.wav"),
-    6: Sound("sounds/sound2.wav"),
-    9: Sound("sounds/sound6.wav"),
-    11: Sound("sounds/sound4.wav"),
+    0: Sound("sounds/sound00.wav"),
+    1: Sound("sounds/sound01.wav"),
+    2: Sound("sounds/sound02.wav"),
+    3: Sound("sounds/sound03.wav"),
+    4: Sound("sounds/sound04.wav"),
+    5: Sound("sounds/sound05.wav"),
+    6: Sound("sounds/sound06.wav"),
+    7: Sound("sounds/sound07.wav"),
+    8: Sound("sounds/sound08.wav"),
+    9: Sound("sounds/sound09.wav"),
+    10: Sound("sounds/sound10.wav"),
+    11: Sound("sounds/sound11.wav"),
 }
 
 
